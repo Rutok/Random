@@ -14,6 +14,7 @@
 		258F82831EA4EB7D002D7EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 258F82811EA4EB7D002D7EE2 /* LaunchScreen.storyboard */; };
 		258F828E1EA4EB7D002D7EE2 /* RandomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258F828D1EA4EB7D002D7EE2 /* RandomTests.swift */; };
 		258F82991EA4EB7D002D7EE2 /* RandomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258F82981EA4EB7D002D7EE2 /* RandomUITests.swift */; };
+		258F82A71EA514A8002D7EE2 /* DrawController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258F82A61EA514A8002D7EE2 /* DrawController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		258F82941EA4EB7D002D7EE2 /* RandomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		258F82981EA4EB7D002D7EE2 /* RandomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUITests.swift; sourceTree = "<group>"; };
 		258F829A1EA4EB7D002D7EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		258F82A61EA514A8002D7EE2 /* DrawController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				258F827F1EA4EB7D002D7EE2 /* Assets.xcassets */,
 				258F82811EA4EB7D002D7EE2 /* LaunchScreen.storyboard */,
 				258F82841EA4EB7D002D7EE2 /* Info.plist */,
+				258F82A61EA514A8002D7EE2 /* DrawController.swift */,
 			);
 			path = Random;
 			sourceTree = "<group>";
@@ -187,6 +190,9 @@
 		258F826D1EA4EB7D002D7EE2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+				);
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Nicolas BOSTE";
@@ -259,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				258F82A71EA514A8002D7EE2 /* DrawController.swift in Sources */,
 				258F827B1EA4EB7D002D7EE2 /* ViewController.swift in Sources */,
 				258F82791EA4EB7D002D7EE2 /* AppDelegate.swift in Sources */,
 			);
@@ -505,6 +512,7 @@
 				258F829F1EA4EB7D002D7EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		258F82A01EA4EB7D002D7EE2 /* Build configuration list for PBXNativeTarget "RandomTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +521,7 @@
 				258F82A21EA4EB7D002D7EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		258F82A31EA4EB7D002D7EE2 /* Build configuration list for PBXNativeTarget "RandomUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +530,7 @@
 				258F82A51EA4EB7D002D7EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
